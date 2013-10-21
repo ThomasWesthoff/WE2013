@@ -36,6 +36,11 @@
 						</div>
 				<?php echo '<h2>Widerstandswert: '.$wert.'</h2>'; ?>
 			</form>
+		<p>
+			<a href="index.html">
+  				<button class="btn btn-large btn-primary" type="button">Und zur&uuml;ck ...</button>
+  			</a>
+  		</p>
 		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
