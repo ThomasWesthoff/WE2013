@@ -1,23 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>Willkommen!</title>
-</head>
-<body>
-<header>
-	<h1>Willkommen auf der WE I / 2013 Testseite von Thomas Westhoff</h1>
-</header>
-<article>
-	<p>
-	<a href="./bootstrap/index.html">Ab in's Bootstrapcamp ...</a>
-	</p>
-	<p>
-	<a href="./bootstrap/kapitel6.html">Hausaufgabe Kapitel 6</a>
-	</p>
-	<p>
-	<a href="./bootstrap/kapitel7.html">Hausaufgabe Kapitel 7</a>
-	</p>
-</article>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+	<title>Thomas Westhoffs WE 2013 Testhomepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+    	<div class="container">
+		<h1>Iversity Web-Engineering I - Thomas Westhoff</h1>
+	    	<h2>Erstellte Hausaufgaben / Testprojekte:</h2>
+		<div class="jumbotron">
+	  		<h2>Impressum</h2>
+  			<p>Damit auch jeder wei&szlig;, wer dahintersteckt ...</p>
+  			<p><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Impressum</button></p>
+		</div>
+		<div class="jumbotron">
+			<h2>Hausaufgabe Kapitel 6</h2>
+			<p>Mit CSS formatierte Tabelle aller "XHTML 1.0 strict"-Elemente</p>
+			<p><a class="btn btn-primary btn-large" href="./kapitel6.html">Zeig' her ...</a></p>
+		</div>
+		<div class="jumbotron">
+			<h2>Hausaufgabe Kapitel 7</h2>
+			<p>Barrierefreies Suchformular f&uuml;r die deutsche Wikipedia</p>
+			<p><a class="btn btn-primary btn-large" href="./kapitel7.html">Zeig' her ...</a></p>
+		</div>
+    		<div class="jumbotron">
+	  		<h2>Widerstandsberechnung (4-Ring Version)</h2>
+  			<p>Ein kleiner Test des Bootstrap Grid und der PHP Integration ... </p>
+  			<p><a class="btn btn-primary btn-large" href="./farbcode.php">Zeig' her ...</a></p>
+		</div>
+				
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h2 class="modal-title" id="myModalLabel">Impressum</h2>
+		      </div>
+		      <div class="modal-body">
+		        Verantwortlich f&uuml;r diese Webseite ist
+			<ul style="text-decoration:none;">
+			<li>Thomas Westhoff</li>
+			<li>EMail: th.westhoff@gmail.com</li>
+			</ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Schlie&szlig;en</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div>
+    </body>
+    </html>
